@@ -9,4 +9,4 @@ Linked list
 
 In original card:
 - 2.md Please fix " Now to create actually create our linked list and a node for it..."
-- 6.md Please move "while current and found is False:" to the second block of code 
+- 6.md Please move "`while current and found is False:`" to the second block of code 
