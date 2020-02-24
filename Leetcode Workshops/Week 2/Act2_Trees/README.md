@@ -8,11 +8,3 @@ Trees
 - 7.md -> slides 23-30
 - 8.md -> slides 31-39
 
-In 5.md please 
-  - add explanation for BST delete() 2 child case
-  - explain what's in-order predecessor before using it
-
-In 7.md please fix the insert_child (the name are now all lowercase)
-
-Please fix 8.md 
-   - break up code, add explanation, introduce in order traversal before using it, explain what will print out
