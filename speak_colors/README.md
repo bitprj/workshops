@@ -190,6 +190,7 @@ function parseResult() {
       .pop()
       .toUpperCase()
     background(color)
+    text(color, width / 2, height / 2)
     console.log(color)
   }
 }
