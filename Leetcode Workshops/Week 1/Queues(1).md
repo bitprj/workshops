@@ -1,4 +1,4 @@
-### Type: Title of Topic (Word Term #1, Word Term #2, etc...) ###
+### Type: Text + Image ###
 
 ### Title: What's a Queue? ###
 
