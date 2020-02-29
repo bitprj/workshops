@@ -4,13 +4,13 @@
 
 - We're going to make a Queue class to show how the Queue itself works.
 
--enqueue() adds elements to the rear of the queue.
+- enqueue() adds elements to the rear of the queue.
 
--dequeue() deletes elements from the front of the queue.
+- dequeue() deletes elements from the front of the queue.
 
--size() looks at the current size that the Queue has.
+- size() looks at the current size that the Queue has.
 
--printQueue() prints out the current elements that are inside the queue
+- printQueue() prints out the current elements that are inside the queue
 
 ```python
 
