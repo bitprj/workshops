@@ -7,7 +7,7 @@
 - How this data structure works is that earliest elements that are added into the stack will be on the bottom of the stack
   and the most recent element that is on the stack will get removed first.
   
-- This process is called LIFO (Last in, Last out).
+- This process is called LIFO (Last in, First out).
 
 - An example can be a stack of books. Say that you have a huge stack of books at the library and you want to access your Calculus
   textbook that's below your Physics, Circuts, and Chemistry textbooks.
