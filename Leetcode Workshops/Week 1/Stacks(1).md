@@ -19,7 +19,7 @@
   
 - Congratulations! You can now work on those wonderful triple integrals that you have to do for your homework :`)
 
-- After finishing your homework, you can put your textbooks back on top of your calculus textboom (this is what we call pushing an
+- After finishing your homework, you can put your textbooks back on top of your calculus textbook (this is what we call pushing an
   an item into a stack).
   
   ![](https://ya-webdesign.com/transparent250_/stack-of-clipart-tall-2.png)
