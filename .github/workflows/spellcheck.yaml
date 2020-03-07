@@ -32,5 +32,6 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
     
-    - name: Spellcheck Action
-      uses: rojopolis/spellcheck-github-actions@0.2.0
+    - name: Check spelling
+      uses: check-spelling/check-spelling@0.0.10-alpha
+
