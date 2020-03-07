@@ -32,6 +32,6 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
     
-    - name: Check spelling
-      uses: check-spelling/check-spelling@0.0.10-alpha
+    - name: Check Spelling (JS, Vue, HTML, Markdown, Text)
+      uses: UnicornGlobal/spellcheck-github-actions@0.4.0
 
