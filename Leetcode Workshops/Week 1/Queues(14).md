@@ -1,4 +1,4 @@
-### Type of Card: Text ###
+### Type of Card: Text + image ###
 
 ### Title: A Real-life Example of a Queue ###
 
