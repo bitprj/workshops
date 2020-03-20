@@ -1,15 +1,3 @@
-### Type: Code steps large ###
-
-The final step is to create a size() function that returns our current size of the stack.
-
-```python
-#Getting the size of the stack
-    def size(self):
-        return len(self.stack)
-````
-
-Slide 3 (Faux Slide 8):
-
 ### Type: Code Steps Large ###
 
 ### Title: Testing out your Stack Class ###
@@ -21,3 +9,4 @@ Slide 3 (Faux Slide 8):
 ```python
 myStack = Stack()
 ```
+
