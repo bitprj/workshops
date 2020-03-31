@@ -75,3 +75,26 @@ Now let's nevigate to the terminal. Every operating system is differen, and here
 
 Install react using npm
 
+
+
+# Code Review -Reviewing Markdown Cards
+
+### Checkpoints
+
+- [ ] Significant interactive aspect (like the BitBloxs game in Postman workshop)
+- [ ] Each card conveys significant ideas
+- [ ] Each card has visuals
+- [ ] The length of each card is reasonable
+- [ ] Logical context progression from card to card
+- [ ] Using long sentences
+
+
+
+### Documentation for checkpoints
+
+1. The cards should have significant interactive aspect. For example, the BitBloxs games in the Postman Workshop should be included in the activity's cards. In the workshop, we can interact with students directly and verbally, then when we transfer to cards, we should try to create some interaction like steps to guide students through activities.
+2. Each card should convey significant ideas. Each card should have a main idea to convey, instead of simply listing methods. For example, it may explain a concept such as What is cURL or What does PUT requests do.
+3. Each card should have some sorts of visuals. The visuals can be something that help illustrate an abstract concept. For example, a drive-through animation to help illustrate the idea of API. The visuals can also be something that complement the description of a step, such as a screen shot to guide how to create an account. The visuals should be relevant to the text and help explain the text better. 
+4. The length of each card should be reasonable. Each card should not be too long to read, or too short that fail to convey any idea. It should be considered wisely what slides can be put into one card and how to separate the contents.
+5. Logical context progression from card to card. The cards should be in an order that logically illustrate the activity. The background information and basic concepts should come at first. And it is better to have transition sentences to connect each cards so that people could know where they are. Sometimes it is necessary to reorder the slides to make the logic more smooth in cards. 
+6. Instead of bullet points in slides, the cards should be written in full sentences, and effectively convey the idea.
