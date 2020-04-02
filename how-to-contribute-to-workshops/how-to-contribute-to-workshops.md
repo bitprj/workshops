@@ -39,9 +39,18 @@ For details about placing your work in GitBook, see <a href = "https://about.bit
 
 ## Adding a Workshop in Collaboration with a Company
 
-If you have a workshop in collaboration with a company that you would like to contribute, convert the content of the company's work into Markdown files, where a single Markdown file corresponds to a single slide of the presentation. See <a href = "#Porting">Porting an Existing Workshop Into Our System</a> for a general outline of how to create the Markdown files. Make sure to provide adequate credit to the company.
+If you have a workshop in collaboration with a company that you would like to contribute, you should: 
 
-Ensure that these presentations align with the requirements outlined in <a href = "https://about.bitproject.org/teams/developer-relations/joining-as-an-organization">Joining as an Organization</a>. To integrate the work into our system, see <a href = "https://about.bitproject.org/teams/developer-relations/joining-as-an-organization#placing-your-work-in-gitbook">Placing your work in GitBook</a>. 
+* Reach out to developer advocates and set up 1-on-1 calls, in which you should
+  * Introduce Bit Project as an organization and provide an overview of its goals.
+  * Propose content collaboration. Make sure to show that you are passionate about what you do and highlight how you believe a collaboration with this **specific** company could be beneficial. Overall, be friendly, courteous, and respectful!
+  * Give your contact information (email is the **most** important).
+
+If the company agrees to a workshop collaboration, make sure to meet with them weekly in order to obtain their input on the work completed. Also, send frequent follow-up emails to ensure that you and the company are on the same page. Other than this, you should follow the same workflow outlined in <a href = "https://about.bitproject.org/teams/developer-relations/joining-as-an-organization">Joining as an Organization</a>. 
+
+In terms of converting the content of the company's work into Markdown files, the requirements are the same as seen in <a href = "#Porting">Porting an Existing Workshop Into Our System</a>. However, when collaborating with a company, make sure to provide adequate credit to the company!
+
+To integrate the work into our system, see <a href = "https://about.bitproject.org/teams/developer-relations/joining-as-an-organization#placing-your-work-in-gitbook">Placing your work in GitBook</a>. 
 
 ## Developing Workshops From Existing Activities/Labs
 
