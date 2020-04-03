@@ -24,7 +24,7 @@ For detailed information about each step and sub-step of the above workflow, see
 
 If you wish to contribute an existing workshop, ensure that all requirements outlined in <a href = "https://about.bitproject.org/teams/developer-relations/joining-as-an-organization">Joining as an Organization</a> have been met and make edits to your workshop as neccessary. 
 
-You should be writing the content of each slide of your presentation in individual Markdown files; that is, each Markdown file corresponds to one slide of the presentation. Each Markdown file should (if applicable) contain the following information:
+maYou should be writing the content of each slide of your presentation in individual Markdown files; that is, each Markdown file corresponds to one slide of the presentation. Each Markdown file should (if applicable) contain the following information:
 
 * Type of slide (i.e. title slide, centered text, link + code, code centered, etc.) 
 * Title of slide
@@ -33,7 +33,29 @@ You should be writing the content of each slide of your presentation in individu
 * Code on slide
 * Speaker notes
 
-In these Markdown files, it is essential that you not only provide the literal text that will go on the slide, but also add any additional notes about formatting, organization, etc. so that when the files are to be converted to slides, it is clear to **anyone** exactly how the slide should be formatted. For example, in the Markdown file, bold words that should be bolded on the slide and indicate if a certain text should be highlighted, underlined, etc. in the final product.
+For example, given the following slide (from a workshop that was not created by Bit Project):
+
+<img src = "./Images/Slide_Example.png">
+
+The associate markdown card should look like:
+
+<hr>
+
+**Type of Slide**: centered text
+
+Title: Example workflow
+
+Text (Each bullet point is in its own text box. Behind these text boxes there is an arrow with tail at top and head at bottom):
+
+- **Clone** a repo from GitHub
+- **Commit and publish** a change
+- **Create** a branch
+- **Merge** changes to master branch
+- **Revert** a commit
+
+<hr>
+
+In these Markdown files, it is essential that you not only provide the literal text that will go on the slide, but also add any additional notes about formatting, organization, etc. so that when the files are to be converted to slides, it is clear to **anyone** exactly how the slide should be formatted. For example, in the Markdown file, you should bold words that should be bolded on the slide and indicate if a certain text should be highlighted, underlined, etc. in the final product.
 
 For details about placing your work in GitBook, see <a href = "https://about.bitproject.org/teams/developer-relations/joining-as-an-organization#placing-your-work-in-gitbook">Placing your work in GitBook</a>.
 
