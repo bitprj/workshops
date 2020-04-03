@@ -74,7 +74,7 @@ In terms of converting the content of the company's work into Markdown files, th
 
 To integrate the work into our system, see <a href = "https://about.bitproject.org/teams/developer-relations/joining-as-an-organization#placing-your-work-in-gitbook">Placing your work in GitBook</a>. 
 
-## Developing Workshops From Existing Activities/Labs
+<h2 id = "Developing">Developing Workshops From Existing Activities/Labs
 
 In order to convert our existing activities/labs into workshops, you should still follow the guidelines outlined in <a href = "https://about.bitproject.org/teams/developer-relations/joining-as-an-organization">Joining as an Organization</a>. The following are additional recommendations for how you can effectively convert an activity or lab into a workshop.
 
@@ -113,6 +113,95 @@ In order to convert our existing activities/labs into workshops, you should stil
 * Try not to have more than one card from an activity/lab represented on a single Markdown file (which corresponds with a slide). If you find yourself doing this, it probably means that you are including too much text or not adequately presenting each card. 
 
 See the workshops README for detailed information about how to develop Markdown cards from existing activities/labs.
+
+## Converting Medium Tutorial Articles to Markdown Files
+
+The general guidelines for taking existing Medium tutorial articles and converting them to Markdown files for a Bit Project workshop is the same as outlined in <a href = "#Developing">Developing Workshops From Existing Activities/Labs</a> and is futher detailed in the workshops README. 
+
+The most important requirement is to give adequate credit (make sure to **cite** them by last name) to the author of the article! However, the following are further points that specifically pertain to converting Medium tutorial articles to Markdown files. We will be using <a href = "https://medium.com/free-code-camp/how-to-create-an-expense-organizer-with-javascript-in-10-minutes-d6dd3541ab5e">this</a> article as an example.
+
+* Before beginning the writing process, read through and follow the article as if you were the student. This will help you in specifying anything that is unclear in the article when you begin to write your Markdown files.
+
+* Many articles begin with an introduction about the topic being discussed. While you should have Markdown files for the introduction, you should limit them to only the most important aspects. For example, the author of the article introduces the piece as follows.
+
+  ```
+  "In this article, I’ll show you how to create a handy little app which keeps track of your receipts. It allows you to dump all your receipts into a Dropbox folder and then hit a button to organize them by month.
+  
+  This is especially useful for when you’re doing accounting, as you normally want to do it on a month-by-month basis. Having all your receipts from a given month grouped together in a single folder can help you save a lot of time.
+  
+  In this tutorial we’ll cover:
+  * Creation of a Dropbox account and setting up our project development environment
+  * UI creation with Vanilla JavaScript — including fetching data, rendering elements, basic state management, and simple navigation.
+  * Some Dropbox API methods for getting and moving files." (Borgen)
+  ```
+
+  In a Markdown file, you should succinctly summarize this as follows.
+
+  ```
+  Title: Introduction
+  Text:
+  	* Let's create an app to handle and organize receipts!
+    * Learning goals
+    	* "UI creation with Vanilla JavaScript"(Borgen)
+    	* "Dropbox API methods" (Borgen)
+  
+  Note at bottom of slide: Information and code credit to Per Harald Borgen.
+  --------------------------------------------------------------------------------------
+  Speaker notes: 
+  * Explain the uses for the app
+  * Mention that the workshop will teach the "[c]reation of a Dropbox account and setting up [the] project development environment" (Borgen)
+  * Explain that audience will understand "UI creation with Vanilla JavaScript — including fetching data, rendering elements, basic state management, and simple navigation." (Borgen)
+  * Mention specifically that "Dropbox API methods [will be] for getting and moving files." (Borgen)
+  ```
+
+  Notice how the Markdown file cites the author of the article by last name (Borgen) when needed. Furthemore, notice the speaker notes have much more text than the actual text section!
+
+* The Medium articles may already be broken down into steps for you. For example, in our example article, the author has already separated the information into subsections. Use this to your advantage to help moduralize your Markdown files so that the information flows in a natural manner. For each subsection, do the following:
+
+  * Only write the high level ideas for each subsection and leave detailed explanation for the speaker notes. Have the subsections span multiple markdown files if there is  a lot of information.
+  * Use plenty of images as these articles often have screenshots of code and examples that make the information presented easier to follow. Don't be afraid to have only an image on a particular Markdown file (with adequate speaker notes, of course).
+  * If the article gives the final code of the project they are presenting, make sure to have a Markdown file at the end which links to it!
+
+Here is another example of how information from our example Medium article can be used for our workshop.
+
+The author writes:
+
+```
+"Fetching data
+
+To display data in our app we need to fetch it first. Let’s get the receipts we have in our Dropbox folder.
+
+We can use filesListFolder() method. It accepts a folder and returns a promise, which when resolved gives us the contents of the folder. There is a little gotcha with this method, because to specify a root path (the base folder that we’re in) we need to specify an empty string '' and not '/'.
+
+dbx.filesListFolder({
+  path: ''
+}).then(res => console.log(res)) " (Borgen)
+
+```
+
+This can be converted to
+
+```
+Title: Fetching Data - Getting Receipts
+Text:
+	* Need to "get...receipts" (Borgen)
+	* "`filesListFolder()`" (Borgen)
+		* CAUTION: "root path" (Borgen)
+Code:
+	dbx.filesListFolder({
+  path: ''
+}).then(res => console.log(res)) " (Borgen)
+
+Note at bottom of slide: Information and code credit to Per Harald Borgen.	
+--------------------------------------------------------------------------------------
+Speaker notes: 
+* Explain that "filesListFolder() method...accepts a folder and returns a promise, which when resolved gives us the contents of the folder." (Borgen)
+* Explain that "to specify a root path...we need to specify an empty string '' and not '/'"
+```
+
+Notice how we title the Markdown file with the specific part of the "Fetching Data" (Borgen) section that we are focusing on from the article. That is, we recognize that this is just the first part of "Fetching Data" (Borgen), but dedicate an entire Markdown file to it.
+
+For details about placing your work in GitBook, see <a href = "https://about.bitproject.org/teams/developer-relations/joining-as-an-organization#placing-your-work-in-gitbook">Placing your work in GitBook</a>.
 
 ## School Onboarding
 
