@@ -110,7 +110,9 @@ In order to convert our existing activities/labs into workshops, you should stil
 
 * Integrate code snippets as neccessary.
 
-* Try not to have more than one card from an activity/lab represented on a single Markdown file (which corresponds with a slide). If you find yourself doing this, it probably means that you are including too much text or not adequately presenting each card.
+* Try not to have more than one card from an activity/lab represented on a single Markdown file (which corresponds with a slide). If you find yourself doing this, it probably means that you are including too much text or not adequately presenting each card. 
+
+See the workshops README for detailed information about how to develop Markdown cards from existing activities/labs.
 
 ## School Onboarding
 
